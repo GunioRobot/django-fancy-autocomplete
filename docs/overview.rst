@@ -36,11 +36,11 @@ user model against it like so::
 
     from django.conf.urls.defaults import *
     from django.contrib.auth.models import User
-    
+
     from fancy_autocomplete.views import AutocompleteSite
 
     autocompletes = AutocompleteSite()
-    
+
     autocompletes.register(
         'user',
         queryset = User.objects.filter(is_active=True, is_superuser=False),

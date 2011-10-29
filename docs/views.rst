@@ -50,7 +50,7 @@ Attributes
 
 .. attribute:: BaseAutocomplete.queryset
 
-    The queryset to search for autocomplete results within.    
+    The queryset to search for autocomplete results within.
 
 .. attribute:: BaseAutocomplete.model
 
